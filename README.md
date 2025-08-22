@@ -4,8 +4,8 @@
 📌 Project Overview
 This project demonstrates a robust machine learning pipeline designed to handle large-scale datasets with high dimensionality. The goal is to build accurate classification models that predict churn among high-value customers—an essential task, given that acquiring new customers is 4 to 5 times more expensive than retaining existing ones.
 
-📂 Workflow Summary
-1. 🧹 Data Cleaning
+## 📂 Workflow Summary
+### 1. 🧹 Data Cleaning
 To ensure data quality and model reliability, the following cleaning steps were applied:
 
 Column Removal:
@@ -22,7 +22,7 @@ Rows with >50% missing values
 
 Rows missing target labels
 
-2. 🛠 Feature Engineering
+### 2. 🛠 Feature Engineering
 Derived Features:
 
 Concatenation of relevant columns to create composite features
@@ -35,14 +35,14 @@ Categorical: Mode
 
 Advanced: KNNImputer for contextual imputation
 
-3. 📊 Exploratory Data Analysis (EDA)
+### 3. 📊 Exploratory Data Analysis (EDA)
 Univariate Analysis: Distribution of individual features
 
 Bivariate Analysis: Relationships between features and target
 
 Multivariate Analysis: Interaction among multiple features
 
-4. ⚙️ Data Preparation
+### 4. ⚙️ Data Preparation
 Encoding:
 
 One-hot encoding for categorical variables
@@ -63,7 +63,7 @@ StandardScaler for linear models
 
 MinMaxScaler for neural networks
 
-5. 🔍 Feature Selection
+### 5. 🔍 Feature Selection
 Recursive Feature Elimination (RFE):
 
 Used with logistic regression to select top 20 features:

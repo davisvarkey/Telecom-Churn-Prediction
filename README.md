@@ -120,3 +120,21 @@ Retention Campaigns: Target customers with low recharge activity with special of
 Non-Data User Promotions: Encourage non-data users to try data services with bundle offers.
 Night Pack Revival: Revive night pack usage through attractive offers and incentives.
 Implementing these strategies can effectively reduce churn and improve customer retention in your telecom business.
+
+## Summary
+
+Developed and deployed machine learning models to predict high-value customer churn in telecom industry, reducing customer acquisition costs (4-5x costlier than retention).
+
+Data Processing: Cleaned large-scale dataset by handling missing values (50%+ threshold), removing redundant features, and engineering new features; implemented KNN imputation and statistical methods for missing data
+
+Exploratory Analysis: Conducted comprehensive univariate, bivariate, and multivariate analysis to identify churn drivers and customer behavior patterns
+
+Feature Engineering: Applied one-hot encoding for categorical variables, outlier treatment, SMOTE for class imbalance, feature scaling (StandardScaler/MinMaxScaler), and RFE for optimal feature selection (reduced to 20 features)
+
+Model Development: Built and evaluated 6 classification models including Logistic Regression (with/without PCA), Decision Tree, Random Forest, AdaBoost, and XGBoost with comprehensive hyperparameter tuning using GridSearchCV
+
+Model Selection: Selected Logistic Regression with PCA as final model based on superior sensitivity (95%+) across train/validation sets, avoiding overfitting observed in ensemble methods
+
+Business Impact: Delivered actionable recommendations including targeted roaming offers, data recharge strategies, and retention campaigns to reduce churn rate
+
+Technical Skills: Python, Scikit-learn, PCA, SMOTE, GridSearchCV, Statistical Analysis, Feature Engineering
